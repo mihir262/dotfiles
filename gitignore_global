@@ -1,0 +1,36 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails and folder icons
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.VolumeIcon.icns
+
+# Common editor settings folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Compile files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.log
+*.out
+
+# Build dirs
+bin/
+obj/
+out/
+dist/
