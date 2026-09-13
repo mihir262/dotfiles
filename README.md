@@ -1,7 +1,7 @@
 # dotfiles
 
 ```bash
-git clone git@github.com:mihir262/dotfiles.git ~/dotfiles
+git clone https://github.com/mihir262/dotfiles.git ~/dotfiles
 ln -s ~/dotfiles/vimrc ~/.vimrc
 ln -s ~/dotfiles/vim ~/.vim
 ln -s ~/dotfiles/gitignore_global ~/.gitignore_global
