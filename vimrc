@@ -26,7 +26,7 @@ function! s:LoadCFTemplate() abort
   if getline('$') ==# ''
     $delete _
   endif
-  call search('while(t--)', 'w')
+  call search('void solve()', 'w')
   normal! j
   startinsert!
 endfunction
@@ -38,5 +38,7 @@ if has("gui_running")
     set guifont=JetBrains\ Mono:h24
     au GUIEnter * winpos 0 0
     au GUIEnter * set lines=999 columns=999
+    set guicursor+=a:blinkon0
+"    colorscheme desert
 endif
 
