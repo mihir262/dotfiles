@@ -39,6 +39,6 @@ if has("gui_running")
     au GUIEnter * winpos 0 0
     au GUIEnter * set lines=999 columns=999
     set guicursor+=a:blinkon0
-"    colorscheme desert
+    colorscheme unokai
 endif
 
