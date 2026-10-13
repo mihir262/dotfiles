@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "competitest.nvim": {
+      "rev": "b42c06ca308906f07912ba9aff015ac2c0831f85",
+      "src": "https://github.com/xeluxee/competitest.nvim"
+    },
     "fzf-lua": {
       "rev": "ec1b98d3f5f44a1cff1f2c3832af2f09c3d806ca",
       "src": "https://github.com/ibhagwan/fzf-lua"
@@ -11,6 +15,10 @@
     "lualine.nvim": {
       "rev": "221ce6b2d999187044529f49da6554a92f740a96",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
+    },
+    "nui.nvim": {
+      "rev": "10fc361835c856ba4233ef5ea135b919bf3dce97",
+      "src": "https://github.com/MunifTanjim/nui.nvim"
     }
   }
 }
