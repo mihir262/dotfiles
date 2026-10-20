@@ -19,6 +19,11 @@
     "nui.nvim": {
       "rev": "10fc361835c856ba4233ef5ea135b919bf3dce97",
       "src": "https://github.com/MunifTanjim/nui.nvim"
+    },
+    "obsidian.nvim": {
+      "rev": "a562bedd7b418a289b005cb4c62b1fe79066253b",
+      "src": "https://github.com/obsidian-nvim/obsidian.nvim",
+      "version": ">=0.0.0"
     }
   }
 }
